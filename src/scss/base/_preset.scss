@@ -1,0 +1,25 @@
+*,
+*:before,
+*:after {
+          box-sizing: border-box;
+
+     -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+// @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@font-face {
+  font-family: "avenir";
+
+  src: url(https://statics.boyner.com.tr/assets/fonts/avenir/AvenirLTStd-Roman.woff2);
+}
+
+html {
+  font-family: "avenir", sans-serif;
+}
